@@ -61,7 +61,7 @@ form.addEventListener("submit", async function (e) {
   }
 });
 
-// Custom cursor (desktop only)
+// Custom cursor 
 if (window.matchMedia("(hover: hover)").matches) {
   const cursor = document.querySelector(".cursor");
   const follower = document.querySelector(".cursor-follower");
